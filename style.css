@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    margin: 0;           /* remove default scroll */
+    height: 100vh;       /* ensures full viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidetext {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    left: 0;
+    margin: 20px; 
+}
+
+#mainclock {
+    color: aqua;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 100px;
+}
+
+#watermark {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+#shwatermark {
+    position: fixed;
+    bottom: 150px;              /* space above watermark */
+    left: 50%;                 /* center horizontally */
+    transform: translateX(-50%);
+    
+    background-color: #1e1e1e; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#shwatermark:hover {
+    background-color: white;
+    color: #1e1e1e;
+    border-color: #1e1e1e;
+}
