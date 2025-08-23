@@ -22,3 +22,9 @@ shwatermarkbutton.addEventListener("click", function showhide() {
 });
 
 document.getElementById("timezone").innerText = `Your Timezone: ${new Date().toString().slice(24)}`
+
+document.getElementById("fullscreenbutton").addEventListener("click", () =>
+    document.fullscreenElement 
+        ? document.exitFullscreen ? document.exitFullscreen() : document.webkitExitFullscreen ? document.webkitExitFullscreen() : document.msExitFullscreen && document.msExitFullscreen()
+        : document.documentElement.requestFullscreen ? document.documentElement.requestFullscreen() : document.documentElement.webkitRequestFullscreen ? document.documentElement.webkitRequestFullscreen() : document.documentElement.msRequestFullscreen && document.documentElement.msRequestFullscreen()
+);
