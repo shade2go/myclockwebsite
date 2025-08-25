@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 0;           
     height: 100vh;       
     display: flex;
@@ -8,7 +8,7 @@ body {
 }
 
 #sidetext {
-    color: aliceblue;
+    color: rgb(0, 91, 171);
     font-family: 'Roboto', sans-serif;
     font-size: 3vw; 
     position: fixed;
@@ -18,7 +18,7 @@ body {
 }
 
 #mainclock {
-    color: rgb(255, 225, 0);
+    color: rgb(13, 1, 248);
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 }
 
 #watermark {
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 0.5;
     font-family: 'Roboto', sans-serif;
     position: absolute;
@@ -42,21 +42,21 @@ body {
     position: absolute;
     top: 10%;
     right: 0%;                  
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding: 10px 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 #shwatermark:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-    border-color: #1e1e1e;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-color: #fff8f8;
 }
 
 
@@ -72,7 +72,7 @@ body {
 }
 
 #timezone {
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 0.5;
     font-family: 'Roboto', sans-serif;
     position: absolute;
@@ -84,29 +84,29 @@ body {
     position: absolute;
     top: 16%;
     right: 0%;                  
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding: 10px 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 #fullscreenbutton:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-    border-color: #1e1e1e;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-color: #fff8f8;
 }
 
 #darklighttoggle {
     position: absolute;
     top: 22%;
     right: 0%;                  
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding: 10px 20px;
@@ -117,8 +117,8 @@ body {
 }
 
 #darklighttoggle:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     border-color: #fff8f8;
 }
 
